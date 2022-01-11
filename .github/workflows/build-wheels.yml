@@ -2,11 +2,11 @@ name: Build wheels
 
 on:
   push:
-    branches: [ main ]
+    branches: [ tbbharaj/statsmodels-wheels ]
   pull_request:
-    branches: [ main ]
-  schedule:
-    - cron: '0 0 * * 0,3' # 2/weekly
+    branches: [ tbbharaj/statsmodels-wheels]
+  #schedule:
+  #  - cron: '0 0 * * 0,3' # 2/weekly
 
 jobs:
   build_wheels:
