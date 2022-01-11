@@ -2,9 +2,9 @@ name: Build wheels
 
 on:
   push:
-    branches: [ tbbharaj/statsmodels-wheels ]
+    branches: [ tbbharaj/aarch64-wheels-support ]
   pull_request:
-    branches: [ tbbharaj/statsmodels-wheels]
+    branches: [ tbbharaj/aarch64-wheels-support]
   #schedule:
   #  - cron: '0 0 * * 0,3' # 2/weekly
 
