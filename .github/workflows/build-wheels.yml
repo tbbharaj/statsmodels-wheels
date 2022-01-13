@@ -2,9 +2,9 @@ name: Build wheels
 
 on:
   push:
-    branches: [ main ]
+    branches: [ tbbharaj/latest-main-copy ]
   pull_request:
-    branches: [ main ]
+    branches: [ tbbharaj/latest-main-copy ]
   schedule:
     - cron: '0 0 * * 0,3' # 2/weekly
 
